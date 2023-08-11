@@ -41,11 +41,12 @@ Download the zip file and run the following command inside the directory.
    <p>
  
  1. [Raj Motwani](https://github.com/raj3000k)<br>
- 2. [Harsh Agrawal](https://github.com/harshu1611)<br>
- 3. [Abdul Hakim](https://github.com/AbdulhakimZ)<br>
- 4. Shivam Gupta<br>
- 4. Disha Jain<br>
- 4. Pilkit Goyal<br>
+ 2. [Harsh Agrawal] (https://github.com/harshu1611)<br>
+ 3. [Shivam Gupta](https://github.com/ShivamNIT)<br>
+ 4. [Abdul Hakim](https://github.com/AbdulhakimZ)<br>
+
+ 5. Disha Jain<br>
+ 6. Pilkit Goyal<br>
  
    </p>
 <br>
