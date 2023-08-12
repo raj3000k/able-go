@@ -1,7 +1,7 @@
 # AbleGO
 
 <p align="justify">
-<h2>inCode 2023 by inDrive Project by Team Cubix</h2>
+
 
 <h2> Project Description </h2>
 
