@@ -11,7 +11,11 @@ The AbleGo project aims to improve accessible ride-hailing for people with disab
 
 <p align="justify">
 <h2> App Demo </h2>
-[![Watch the video](https://www.peerbits.com/static/6c7627f63c7005f4da32f50af1f98a9b/189bc/understanding-working-taxi-app-development-main.jpg)](https://youtu.be/xQ5LhnZrwqs)
+
+[![Watch the video](https://img.youtube.com/vi/xQ5LhnZrwqs/hqdefault.jpg)](https://youtu.be/xQ5LhnZrwqs)
+
+
+
 
 
 <h2> Tech Stack </h2>
