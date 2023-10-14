@@ -5,6 +5,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:sample_app/pages/emergencyContacts.dart';
 import 'package:sample_app/pages/searching.dart';
+import 'package:sample_app/pages/traffic.dart';
 import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 import 'package:flutter_mapbox_autocomplete/flutter_mapbox_autocomplete.dart';
 import 'package:sample_app/pages/SOSPage.dart';
@@ -458,6 +459,44 @@ class _MapTestingState extends State<MapTesting> {
                                           destination: destination)));
                             },
                             child: Text('Search Ride')),
+                            Container(
+                          margin: EdgeInsets.only(top: 10, left: 18),
+                          child: ElevatedButton.icon(
+                            
+                            icon: Icon(
+                              // <-- Icon
+                              Icons.traffic,
+                              size: 24.0,
+                            ),
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Traffic(
+                                      wheelChairSelected:
+                                              wheelChairSelected,
+                                          onboardingSelected:
+                                              onboardingSelected,
+                                          signSelected: signSelected,
+                                      pickUp: pickUp,
+                                      destination: destination,
+                                    )),
+                              );
+                            },
+                            style: ElevatedButton.styleFrom(
+                              
+                              backgroundColor: Colors.green,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(15),
+                              ),
+                            ),
+                            
+                            label: Text(
+                              'Route Prediction',
+                              style: TextStyle(color: Colors.white),
+                            ), // <-- Text
+                          ),
+                        ),
                       ],
                     ),
                   )
